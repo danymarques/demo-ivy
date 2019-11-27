@@ -1,0 +1,7 @@
+<div class="wrapper">
+  <button mat-raised-button (click)="addItem('')" ngClass="button">Click me!</button>
+
+  <mat-chip-list aria-label="Fish selection">
+    <mat-chip *ngFor="let item of items">{{item}}</mat-chip>
+  </mat-chip-list>
+</div>
