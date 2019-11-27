@@ -12,7 +12,7 @@ export class CompteurComponent {
   public items: String[] = [];
   public counter: number = 0;
 
-  public addItem(message: string) {
+  public addItem(message: string = undefined) {
     if(message) {
       this.items.push(message);
     }
